@@ -1,0 +1,16 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.PatientListViewmodel = exports.MarkPrintedViewmodel = exports.UpdateSuperBillViewmodel = exports.GetSuperBillListViewmodel = exports.AssignSuperBillViewmodel = exports.AddSuperBillViewmodel = void 0;
+var add_super_bill_viewmodel_1 = require("./add_super_bill.viewmodel");
+Object.defineProperty(exports, "AddSuperBillViewmodel", { enumerable: true, get: function () { return add_super_bill_viewmodel_1.AddSuperBillViewmodel; } });
+var assign_super_bill_viewmodel_1 = require("./assign_super_bill.viewmodel");
+Object.defineProperty(exports, "AssignSuperBillViewmodel", { enumerable: true, get: function () { return assign_super_bill_viewmodel_1.AssignSuperBillViewmodel; } });
+var get_super_bill_list_viewmodel_1 = require("./get_super_bill_list.viewmodel");
+Object.defineProperty(exports, "GetSuperBillListViewmodel", { enumerable: true, get: function () { return get_super_bill_list_viewmodel_1.GetSuperBillListViewmodel; } });
+var update_super_bill_viewmodel_1 = require("./update_super_bill.viewmodel");
+Object.defineProperty(exports, "UpdateSuperBillViewmodel", { enumerable: true, get: function () { return update_super_bill_viewmodel_1.UpdateSuperBillViewmodel; } });
+var markPrinted_viewmodel_1 = require("./markPrinted.viewmodel");
+Object.defineProperty(exports, "MarkPrintedViewmodel", { enumerable: true, get: function () { return markPrinted_viewmodel_1.MarkPrintedViewmodel; } });
+//export { GenerateDetailsViewmodel } from "./generate_details.viewmodel";
+var patientList_viewmodel_1 = require("./patientList.viewmodel");
+Object.defineProperty(exports, "PatientListViewmodel", { enumerable: true, get: function () { return patientList_viewmodel_1.PatientListViewmodel; } });

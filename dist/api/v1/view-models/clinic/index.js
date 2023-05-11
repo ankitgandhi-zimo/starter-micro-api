@@ -1,0 +1,15 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.UpdateClinicViewmodel = exports.UpdateClinicLocationViewmodel = exports.GetClinicLocationListViewmodel = exports.AddClinicLocationViewmodel = exports.GetClinicListViewmodel = exports.AddClinicViewmodel = void 0;
+var add_clinic_viewmodel_1 = require("./add_clinic.viewmodel");
+Object.defineProperty(exports, "AddClinicViewmodel", { enumerable: true, get: function () { return add_clinic_viewmodel_1.AddClinicViewmodel; } });
+var get_clinic_list_viewmodel_1 = require("./get_clinic_list.viewmodel");
+Object.defineProperty(exports, "GetClinicListViewmodel", { enumerable: true, get: function () { return get_clinic_list_viewmodel_1.GetClinicListViewmodel; } });
+var add_clinic_location_viewmodel_1 = require("./locations/add_clinic_location.viewmodel");
+Object.defineProperty(exports, "AddClinicLocationViewmodel", { enumerable: true, get: function () { return add_clinic_location_viewmodel_1.AddClinicLocationViewmodel; } });
+var get_clinic_location_list_viewmodel_1 = require("./locations/get_clinic_location_list.viewmodel");
+Object.defineProperty(exports, "GetClinicLocationListViewmodel", { enumerable: true, get: function () { return get_clinic_location_list_viewmodel_1.GetClinicLocationListViewmodel; } });
+var update_clinic_location_viewmodel_1 = require("./locations/update_clinic_location.viewmodel");
+Object.defineProperty(exports, "UpdateClinicLocationViewmodel", { enumerable: true, get: function () { return update_clinic_location_viewmodel_1.UpdateClinicLocationViewmodel; } });
+var update_clinic_viewmodel_1 = require("./update_clinic.viewmodel");
+Object.defineProperty(exports, "UpdateClinicViewmodel", { enumerable: true, get: function () { return update_clinic_viewmodel_1.UpdateClinicViewmodel; } });

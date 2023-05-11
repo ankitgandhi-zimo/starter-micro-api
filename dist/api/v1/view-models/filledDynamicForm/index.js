@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.SendFormViewmodel = exports.GetFilledDynamicFormListViewmodel = exports.UpdateFilledDynamicFormViewmodel = exports.AddFilledDynamicFormViewmodel = void 0;
+var add_filledDynamicForm_viewmodel_1 = require("./add_filledDynamicForm.viewmodel");
+Object.defineProperty(exports, "AddFilledDynamicFormViewmodel", { enumerable: true, get: function () { return add_filledDynamicForm_viewmodel_1.AddFilledDynamicFormViewmodel; } });
+var update_filledDynamicForm_viewmodel_1 = require("./update_filledDynamicForm.viewmodel");
+Object.defineProperty(exports, "UpdateFilledDynamicFormViewmodel", { enumerable: true, get: function () { return update_filledDynamicForm_viewmodel_1.UpdateFilledDynamicFormViewmodel; } });
+var get_filledDynamicForm_list_viewmodel_1 = require("./get_filledDynamicForm_list.viewmodel");
+Object.defineProperty(exports, "GetFilledDynamicFormListViewmodel", { enumerable: true, get: function () { return get_filledDynamicForm_list_viewmodel_1.GetFilledDynamicFormListViewmodel; } });
+var send_Form_viewmodel_1 = require("./send_Form.viewmodel");
+Object.defineProperty(exports, "SendFormViewmodel", { enumerable: true, get: function () { return send_Form_viewmodel_1.SendFormViewmodel; } });

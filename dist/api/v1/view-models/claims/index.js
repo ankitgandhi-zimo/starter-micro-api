@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.UpdateEditStatusViewmodel = exports.GetClaimListViewmodel = exports.GetClaimDetailsViewmodel = exports.SubmitClaimViewmodel = void 0;
+var claim_submit_viewmodel_1 = require("./claim_submit.viewmodel");
+Object.defineProperty(exports, "SubmitClaimViewmodel", { enumerable: true, get: function () { return claim_submit_viewmodel_1.SubmitClaimViewmodel; } });
+var get_claim_details_viewmodel_1 = require("./get_claim_details.viewmodel");
+Object.defineProperty(exports, "GetClaimDetailsViewmodel", { enumerable: true, get: function () { return get_claim_details_viewmodel_1.GetClaimDetailsViewmodel; } });
+var get_claim_list_viewmodel_1 = require("./get_claim_list.viewmodel");
+Object.defineProperty(exports, "GetClaimListViewmodel", { enumerable: true, get: function () { return get_claim_list_viewmodel_1.GetClaimListViewmodel; } });
+var update_edit_status_viewmodel_1 = require("./update_edit_status.viewmodel");
+Object.defineProperty(exports, "UpdateEditStatusViewmodel", { enumerable: true, get: function () { return update_edit_status_viewmodel_1.UpdateEditStatusViewmodel; } });

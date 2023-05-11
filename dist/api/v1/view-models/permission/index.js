@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.UpdateUserPermissionViewmodel = exports.GetPermissionListViewmodel = exports.UpdatePermissionViewmodel = exports.AddPermissionViewmodel = void 0;
+var add_permission_viewmodel_1 = require("./add_permission.viewmodel");
+Object.defineProperty(exports, "AddPermissionViewmodel", { enumerable: true, get: function () { return add_permission_viewmodel_1.AddPermissionViewmodel; } });
+var update_permission_viewmodel_1 = require("./update_permission.viewmodel");
+Object.defineProperty(exports, "UpdatePermissionViewmodel", { enumerable: true, get: function () { return update_permission_viewmodel_1.UpdatePermissionViewmodel; } });
+var get_permission_list_viewmodel_1 = require("./get_permission_list.viewmodel");
+Object.defineProperty(exports, "GetPermissionListViewmodel", { enumerable: true, get: function () { return get_permission_list_viewmodel_1.GetPermissionListViewmodel; } });
+var update_user_permission_viewmodel_1 = require("./update_user_permission.viewmodel");
+Object.defineProperty(exports, "UpdateUserPermissionViewmodel", { enumerable: true, get: function () { return update_user_permission_viewmodel_1.UpdateUserPermissionViewmodel; } });
